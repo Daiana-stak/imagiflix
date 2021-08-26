@@ -3,6 +3,7 @@ import React from 'react';
 import logo from '../assests/imagiflix.png';
 import placeholderUser from '../assests/user.jpg';
 
+import './NavBar.css';
 
 const NavBar = () => (
 <nav className='navbar absolute top-0 left-0 grid grid-cols-2 items-center w-full p-8'>

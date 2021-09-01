@@ -3,10 +3,10 @@ import React from 'react';
 import logo from '../assests/imagiflix.png';
 import placeholderUser from '../assests/user.jpg';
 
-import './NavBar.css';
+import '../components/NavBar.css';
 
 const NavBar = () => (
-<nav className='navbar absolute top-0 left-0 grid grid-cols-2 items-center w-full p-8'>
+<nav className='.hidden'>
     <div className='justify-self-start grid grid-cols-2 gap-4 items-center'>
    <h1 className='hidden'>Imagiflix</h1>
    <img src={logo} alt='Imagiflix'/>
